@@ -1,4 +1,3 @@
-<summary>Table of Contents</summary>
 <ol>
     <li>
         <a href="#experiment-1-single-sine-waves">
