@@ -2,17 +2,17 @@
 <ol>
 <li>
     <a href="#experiment-1-single-sine-waves">
-        Experiment 1
+        Experiment 1: single sine waves
     </a>
 </li>
 <li>
     <a href="#experiment-2-pairs-of-sine-waves">
-        Experiment 2
+        Experiment 2: pairs of sine waves
     </a>
 </li>
 <li>
     <a href="#experiment-3-frequency-symmetry-and-emotions">
-        Experiment 3
+        Experiment 3: frequency, symmetry and emotions
     </a>
 </li>
 <li>
@@ -91,6 +91,41 @@ The stimuli are combinations of low-high frequency and low-high symmetry of sinu
 * serenity: https://www.youtube.com/watch?v=0rvqtGBrOAI
 * depression: https://www.youtube.com/watch?v=67OvWwnZSjU
 
+The stimuli code and parameters can be found in this shader: https://www.shadertoy.com/view/clGyzK.
+
+**Overview of the shader models for each emotion**
+
+_Serenity_
+- a single downward traveling sinusoidal wave
+- temporal waveform of 0.5 Hz
+- spatial waveform of 1 vertical band
+- wave amplitude of 0.3
+
+_Depression_
+- a pair of asymmetrically superimposed sinusoidal waves
+- 1st temporal waveform of 0.5 Hz
+- 1st spatial waveform of 1 vertical band
+- 2nd temporal waveform of 0.34 Hz
+- 2nd spatial waveform of 7 vertical bands
+- wave amplitudes of 0.75 (1st wave) and 0.5 (2nd wave)
+- an asymmetric fragmentation of the superimposed waves using a modulo operator
+- an asymmetric shear of the superimposed waves using a fractal function
+
+_Excitement_
+- a single upward traveling sinusoidal wave
+- temporal waveform of 10 Hz
+- spatial waveform of 1 vertical band with a 1:3 ratio of white-black space
+- wave amplitude of 0.25
+
+_Anxiety_
+- a pair of asymmetrically superimposed sinusoidal waves
+- 1st temporal waveform of 11.9 Hz
+- 1st spatial waveform of 5 vertical bands with a 1:2.9 ratio of white-black space
+- 2nd temporal waveform of 9.7 Hz
+- 2nd spatial waveform of ~11 vertical bands with a 1:3.4 ratio of white-black space
+- wave amplitudes of 0.75 (1st wave) and 0.66 (2nd wave)
+- an asymmetric fragmentation of the superimposed waves using a modulo operator
+
 We showed the four stimuli to 50 survey participants, invited them to try embody them and asked the following questions
 * is this visualization **easy to embody**?
 * is this visualization **pleasant**?
@@ -107,7 +142,7 @@ Responses to the first three question were collected as Likert scales ranging fr
 ## User data
 
 For all experiments 1 and 2 we also collected user data such as
-* height
+* height in cm
 * an open ended question asking if there was anything unclear in the experiment (`anything_unclear`)
 * an open ended question asking if there was anthing else they wanted to tell us (`other_comments`)
 
