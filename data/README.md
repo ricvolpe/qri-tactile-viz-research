@@ -1,25 +1,25 @@
 <summary>Table of Contents</summary>
 <ol>
-<li>
-    <a href="#experiment-1-single-sine-waves">
-        Experiment 1: single sine waves
-    </a>
-</li>
-<li>
-    <a href="#experiment-2-pairs-of-sine-waves">
-        Experiment 2: pairs of sine waves
-    </a>
-</li>
-<li>
-    <a href="#experiment-3-frequency-symmetry-and-emotions">
-        Experiment 3: frequency, symmetry and emotions
-    </a>
-</li>
-<li>
-    <a href="#user-data">
-        User data
-    </a>
-</li>
+    <li>
+        <a href="#experiment-1-single-sine-waves">
+            Experiment 1: single sine waves
+        </a>
+    </li>
+    <li>
+        <a href="#experiment-2-pairs-of-sine-waves">
+            Experiment 2: pairs of sine waves
+        </a>
+    </li>
+    <li>
+        <a href="#experiment-3-frequency-symmetry-and-emotions">
+            Experiment 3: frequency, symmetry and emotions
+        </a>
+    </li>
+    <li>
+        <a href="#user-data">
+            User data
+        </a>
+    </li>
 </ol>
 
 ## Experiment 1: single sine waves
