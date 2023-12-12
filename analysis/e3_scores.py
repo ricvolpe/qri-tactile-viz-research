@@ -1,4 +1,5 @@
 import pandas as pd
+from scipy.stats import pearsonr
 
 data = pd.read_csv('data/e3_emotions.csv')
 accuracy = (data['emotion'] == data['depiction']).sum() / len(data)
@@ -18,3 +19,6 @@ print(answ_deptict)
 print()
 
 print(data[['embody', 'valence', 'arousal']].corr())
+print()
+
+print(pearsonr(data['embody'], data['valence']))
