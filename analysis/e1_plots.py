@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 items = pd.read_csv("data/e1_sine_waves_items.csv")
 questions = pd.read_csv("data/e1_sine_waves_questions.csv")
-data = items.join(questions, on="question_id", rsuffix="_Q")
+data = pd.merge(items, questions, on='question_id')
 
 metrics = ["pleasant", "stimulating", "complex"]
 colors = ["y", "r", "b"]

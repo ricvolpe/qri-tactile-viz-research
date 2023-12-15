@@ -2,14 +2,14 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-items = pd.read_csv("data/e2b_sine_waves_pairs_temporal_items.csv")
-questions = pd.read_csv("data/e2b_sine_waves_pairs_temporal_questions.csv")
-data = items.join(questions, on="question_id", rsuffix="_Q")
+items = pd.read_csv("data/e2b_sine_waves_pairs_spatial_items.csv")
+questions = pd.read_csv("data/e2b_sine_waves_pairs_spatial_questions.csv")
+data = pd.merge(items, questions, on='question_id')
 
 metrics = ["pleasant", "stimulating", "complex"]
 colors = ["y", "r", "b"]
 key = "user_id"
-dimensions = ["temporal_waveform_2"]
+dimensions = ["spatial_waveform_2"]
 
 data = data[[key] + dimensions + metrics]
 data_long = data.melt(

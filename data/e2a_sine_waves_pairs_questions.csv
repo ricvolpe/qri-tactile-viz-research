@@ -1,14 +1,5 @@
 question_id,spatial_waveform_1,temporal_waveform_1,spatial_waveform_2,temporal_waveform_2,stimuli
 8,35,4,35,4,https://youtu.be/apL_eXYMTHg
-1,35,4,42,4,https://youtu.be/1U3iAne73Xw
-7,35,4,49,4,https://youtu.be/DBT1npDazB8
-6,35,4,56,4,https://youtu.be/AUhFWmJ7WOw
-18,35,4,63,4,https://youtu.be/pREuzN3ONos
-15,35,4,70,4,https://youtu.be/crwWv_OVKAk
-0,35,4,77,4,https://youtu.be/07EYTYycHg8
-9,35,4,84,4,https://youtu.be/Aiqn7qmqVlo
-4,35,4,91,4,https://youtu.be/GXwclcIVBSA
-14,35,4,98,4,https://youtu.be/TTt2oRqiAPk
 11,35,4,35,5,https://youtu.be/GlN4euxk0Js
 3,35,4,35,6,https://youtu.be/5kg93iVQ4f0
 13,35,4,35,7,https://youtu.be/lShXne_O3cU
@@ -18,3 +9,12 @@ question_id,spatial_waveform_1,temporal_waveform_1,spatial_waveform_2,temporal_w
 12,35,4,35,12,https://youtu.be/MbaDXM8ek_w
 5,35,4,35,14,https://youtu.be/Af2Rl6R4YZU
 16,35,4,35,16,https://youtu.be/fZKl-zMJbNw
+1,35,4,42,4,https://youtu.be/1U3iAne73Xw
+7,35,4,49,4,https://youtu.be/DBT1npDazB8
+6,35,4,56,4,https://youtu.be/AUhFWmJ7WOw
+18,35,4,63,4,https://youtu.be/pREuzN3ONos
+15,35,4,70,4,https://youtu.be/crwWv_OVKAk
+0,35,4,77,4,https://youtu.be/07EYTYycHg8
+9,35,4,84,4,https://youtu.be/Aiqn7qmqVlo
+4,35,4,91,4,https://youtu.be/GXwclcIVBSA
+14,35,4,98,4,https://youtu.be/TTt2oRqiAPk

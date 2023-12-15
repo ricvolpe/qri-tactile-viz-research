@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 items = pd.read_csv("data/e2a_sine_waves_pairs_items.csv")
 questions = pd.read_csv("data/e2a_sine_waves_pairs_questions.csv")
-data = items.join(questions, on="question_id", rsuffix="_Q")
+data = pd.merge(items, questions, on='question_id')
 
 metrics = ["pleasant", "stimulating", "complex"]
 colors = ["y", "r", "b"]
@@ -26,8 +26,6 @@ stats = (
     .agg(["mean", "sem"])
     .reset_index()
 )
-
-print(stats)
 
 for d in dimensions:
     criteria = (
